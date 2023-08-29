@@ -46,14 +46,14 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        //DEBUG
+        
         if(Input.GetKeyDown(KeyCode.R)){
            StartGame(); 
         }
         if(Input.GetKeyDown(KeyCode.Escape)){
             BackToMainMenu();
         }
-        //DEBUG
+        
 
         if(SelectedCell!=null){
             if(Input.GetMouseButtonDown(0)){
